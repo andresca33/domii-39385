@@ -26,6 +26,10 @@ ul{
 .encabezado{
     width: 100%;
     height: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
 }
 
 .logo{
@@ -34,56 +38,40 @@ ul{
 
 /* Navbar */
 
-
-
-.navbar ul{
+.nav-list{
     display: flex;
-    flex-direction: row;
     gap: 72px;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
     font-size: 24px;
-    left: 516px;
-    top: 40px;
 } 
 
-.nav-links{
-    display: inline-block;
-}
 
+/* Botones Inicio/Registro*/
 
-/* Botones */
+.botones{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-right: 2rem;
+}   
 
 .boton-inicio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 14px 20px;
-    gap: 10px;
-    position: absolute;
     width: 145px;
     height: 50px;
-    left: 1095px;
-    top: 27px;
     color: white;
     background: #5856D6;
     border-radius: 14px;
+    text-align: center;
 }
 
 .boton-registro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 14px 20px;
-    gap: 10px;
-    position: absolute;
     width: 126px;
     height: 50px;
-    left: 1260px;
-    top: 27px;
     border: 1px solid #5856D6;
     border-radius: 14px;
+    text-align: center;
 }
 
 .boton-inicio a{
@@ -185,7 +173,7 @@ ul{
 
 .titulo2{
     width: 100%;
-    height: 108px;
+    height: auto;
     background-color: #5856D6;
     color: white;
     font-size: 35px;
@@ -193,14 +181,14 @@ ul{
 }
 
 .titulo2 h2{
-    padding-top: 20px;
+    padding: 30px;
 }
 
 .ventajas{
     background-color: #5856D6;
     color: white;
     width: 100%;
-    height: 411px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -327,12 +315,12 @@ ul{
     background-color: #5856D6;
     display: flex;
     color: white;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
 .escanea{
-    width: 428px;
+    width: 50%px;
     height: 132px;
     display: flex;
     gap: 26px;
@@ -345,7 +333,7 @@ ul{
 }
 
 .descarga{
-    width: 428px;
+    width: 50%px;
     height: 132px;
     display: flex;
     gap: 26px;
@@ -489,6 +477,8 @@ footer a{
     width: 690px;
     height: 602px;
     border-radius: 30px;
+    margin-left: 40px;
+    
  }
 
  .inicioGoogle{
@@ -853,25 +843,102 @@ footer a{
     text-align: center;
     font-weight: bold;
 }
+
+.navbar-nav a{
+    color: #5856D6;
+    font-size: 25px;
+    text-align: center;
+}
+
+.navbar-nav{
+    margin-left: 200px;
+    gap: 50px;
+}
+
+.texto1 p{
+    margin:50px 100px 50px 100px;
+    font-size: 20px;
+}
+
 @media (max-width:900px){
     .banner-text{
-        width: 60%;
+        width: 50%;
+        margin: 20px;
+        padding-top: 10px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .banner-text h4{
+        font-size: 16px;
+        font-weight: 500;
     }
     .banner-img img{
         width: 400px;
     }
-
+    .nav-list{
+        font-size: 18px;
+        gap: 30px;
+        margin-left: auto;
+    }
+    .titulo2 h2{
+        font-size: 28px;
+        padding: ;
+    }
+    .titulo3 h2{
+        font-size: 28px;
+    }
+    .cuadros{
+        gap: 10px;
+    }
+    .escanea,
+    .descarga {
+        gap: 10px;
+    }
+    .ventajas1,.ventajas2,.ventajas3{
+        width: 80%;
+        margin: 1rem;
+    }
+    .ventajas{
+        margin-bottom: ;
+    }
+    .info{
+        margin: 53px 41px 59px 30px;
+    }
+    .botones{
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 10px;
+        
+    }   
+    
+    .boton-inicio{
+        width: 120px;
+        height: 40px;
+    }
+    
+    .boton-registro{
+        width: 120px;
+        height: 40px;
+    }
+    
+    .boton-inicio ul li a{
+        font-size: 13px;
+    }
+    .boton-registro ul li a{
+        font-size: 13px;
+    }
 }
 
-.carousel-inner{
-    height: 100vh;
-}
 
+@media (max-width:990px){
+
+}
 
 @media (max-width:744px){
-    
     .banner-text h1{
-        font-size: 28px;
+        font-size: 22px;
         margin-bottom: 10px;
     }
     .container{
@@ -879,41 +946,33 @@ footer a{
         margin-bottom: 15px;
     }
     
+    .nav-list{
+        flex-direction:column;
+        gap: 5px;
+        font-size: 16px;
+        padding: 1rem;
+    }
+    
     .banner-text h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .banner-text h4{
-        font-size: 14px;
+        font-size: 12px;
+        font-weight: 300;
     }
-    .banner-img img{
-        width: 252px;
-        height: auto;
-    }
+
     .logo{
-        width: 178px;
-        height: 46px;
-    }
-    .navbar ul{
-        left: 80px;
-        top: 40px;
+        height: auto;
     }
 
     .titulo2{
         font-size: 20px;
         margin-top: 10px;
     }
-    .ventajas1{
-        width: 653px;
-        height: 108px;
-    }
-    .ventajas2{
-        width: 653px;
-        height: 108px;
-    }
-    .ventajas3{
-        width: 653px;
-        height: 108px;
+    .ventajas1,.ventajas2,.ventajas3{
+        width: 80%;
+        margin: 1rem;
     }
     .cuadros h4{
         margin: 5px 80px 5px 16px;
@@ -948,17 +1007,97 @@ footer a{
     .info{
         margin: 53px 41px 59px 30px;
     }
+    .texto1 p{
+        margin:30px 50px 30px 50px;
+        font-size: 16px;
+    }
+    .somos-domii h2{
+        font-size: 40px;
+    }
+    .botones div{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:596px){
+    .encabezado{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .nav-list{
+        align-items: center;
+    }
+    .boton-inicio{
+        width: 101px;
+        height: 40px;
+    }
+    
+    .boton-registro{
+        width: 101px;
+        height: 40px;
+    }
+    .boton-inicio ul li a{
+        font-size: 11px;
+        
+    }
+    .boton-registro ul li a{
+        font-size: 11px;
+    }
+    .logo{
+        margin: 0;
+    }
+
 }
 
 @media (max-width: 393px){
-    .banner{
-        display: flex;
+    /* .encabezado{
         flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .nav-list{
+        align-items: center;
+    }
+    .boton-inicio{
+        width: 101px;
+        height: 40px;
+    }
+    
+    .boton-registro{
+        width: 101px;
+        height: 40px;
+    }
+    .boton-inicio ul li a{
+        font-size: 11px;
+        
+    }
+    .boton-registro ul li a{
+        font-size: 11px;
+    } */
+
+    .banner{
+        flex-direction: column;
+        align-items: center;
     }
     .banner-text{
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    .logo{
+        height: 50px;
+        width: auto;
+        margin: 1rem;
+    }
+    .banner-img img{
+        width: 70%;
+    }
+
+
     .card{
         height: 100px;
         width: 284px;
@@ -1051,8 +1190,12 @@ footer a{
         display: flex;
         flex-direction: column;
     }
-
-
-
+    .texto1 p{
+        margin:20px 30px 20px 30px;
+        font-size: 14px;
+    }
+    .somos-domii h2{
+        font-size: 20px;
+    }
 
 }
