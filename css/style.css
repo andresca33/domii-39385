@@ -1049,6 +1049,23 @@ footer a{
     .logo{
         margin: 0;
     }
+    .info h4{
+        font-size: 16px;
+    }
+    .contacto h4{
+    font-size: 16px;
+    }
+    .logosinfo a img{
+    width: 20px;
+    }
+    .contacto{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .somos-domii h2{
+        font-size: 30px;
+    }
 
 }
 
@@ -1196,6 +1213,15 @@ footer a{
     }
     .somos-domii h2{
         font-size: 20px;
+    }
+    .info h4{
+        font-size: 16px;
+    }
+    .contacto h4{
+    font-size: 16px;
+    }
+    .logosinfo a img{
+    width: 20px;
     }
 
 }
