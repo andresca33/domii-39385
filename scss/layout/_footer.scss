@@ -1,0 +1,30 @@
+footer{
+    width: 100%;
+    height: 394px;
+    background: #010047;
+    color: white;
+    display: flex;
+    a{
+        color: white;
+    }
+    .info{
+        width: 220px;
+        height: 282px;
+        margin: 53px 41px 59px 172px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+    .contacto{
+        margin-top: 53px;
+        width: 220px;
+        height: 282px;
+        .logosinfo a{
+            margin: 8px;
+            padding-top: 20px;        
+        }
+        h4{
+            margin-bottom: 22px;
+        }
+    }
+}

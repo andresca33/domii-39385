@@ -1,0 +1,105 @@
+@media (max-width:744px){
+
+header{
+    .encabezado{
+        .logo{
+            height: auto;
+        }
+        .navbar{
+            .nav-list{
+                flex-direction: column;
+                font-size: 16px;
+                gap: 5px;
+                padding: 1rem;
+            }
+        }
+        .botones{
+            div{
+                align-items: center;        
+            }
+        }
+    }
+}
+
+
+
+main{
+    .container{
+        height: auto;
+        margin-bottom: 15px;
+        .banner{
+            .banner-text{
+                h1{
+                    font-size: 22px;
+                }      
+                h4{
+                    font-size: 12px;
+                    font-weight: 300;            
+                }
+                h3{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    // Ventajas - inicio
+    .titulo2{
+        h2{
+            margin-top: 10px;
+        }
+    }
+    .ventajas{
+        padding-bottom: 50px;
+        p{
+            font-size: 15px;
+        }
+        .ventajas1, .ventajas2, .ventajas3{
+            margin-top: 30px;  
+        }
+    }
+
+    // Cuadros recomendaciones - inicio
+
+    .cuadros{
+        gap: 25px;
+        h4{
+            margin: 5px 80px 5px 16px;
+        }
+        .cuadro1, .cuadro2, .cuadro3{
+            width: 187px;
+            height: auto;     
+        }
+    }
+    // descarga info - inicio
+    .info-descarga{
+        .escanea{
+            flex-direction: column;
+            gap: 0px;    
+        }
+        .descarga{
+            gap: 10px;
+            flex-direction: column;    
+        }
+    }
+
+    // Pagina Quienes somos
+    .main{
+        .somos-domii{
+            h2{
+                font-size: 40px;
+            }
+            .texto1{
+                margin:20px 30px 20px 30px;
+                font-size: 16px;            
+            }
+        }
+    }
+    // pagina de Mi tienda
+    .tienda{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 100px;
+    }
+}
+}

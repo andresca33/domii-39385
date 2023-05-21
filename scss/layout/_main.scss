@@ -1,0 +1,557 @@
+main{
+    // inicio
+    // Banner principal
+    .container{
+        width: 100%;
+        height: 265px;  
+        
+        .banner{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+
+            .banner-text{
+                width: 50%;
+                h1{
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: #5856D6;
+                    margin-bottom: 20px;
+                }
+                h3{
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #5856D6;
+                    margin-bottom: 10px;
+                }
+                h4{
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #5856D6;
+                }
+            }
+        }
+    }
+    // Cards - Inicio
+    .box{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        
+        .card, .card2, .card3{
+            background: #5856D6;
+            border-radius: 34px;
+            height: 121px;
+            width: 345px;
+            display: flex;
+            flex-direction: row-reverse;  
+
+            img{
+                margin-right: 15px;
+            }
+            
+            div{
+                color: white;
+                margin: 20px;
+
+                h3{
+                    font-size: 22px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 14px;
+                }
+                 
+            }
+        }
+    }
+    // Ventajas - inicio
+    .titulo2{
+        width: 100%;
+        height: auto;
+        background-color: #5856D6;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 30px;
+        h2{
+            padding: 30px;
+        }
+    }
+    .ventajas{
+        background-color: #5856D6;
+        color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 40px;
+        gap: 20px;
+        img{
+            margin: 5px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #FFFFFF;
+        }
+        h4{
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .ventajas1, .ventajas2, .ventajas3{
+            width: 849px;
+            height: 100%;
+            display: flex;
+        }
+    }
+    // Cuadros recomendaciones - inicio
+    .titulo3{
+        width: 100%;
+        height: 120px;
+        h2{
+            font-size: 48px;
+            color: #5856D6;
+            text-align: center;
+        }
+    }
+    .cuadros{
+        background-color: #5856D6;
+        width: 100%;
+        display: flex;
+        flex-direction: row wrap;
+        gap: 55px;
+        justify-content: center;
+        padding-top: 44px;
+        padding-bottom: 30px;
+   
+        h4{
+            color: #5856D6;
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-size: 20px;
+            margin: 11px 80px 11px 16px; 
+        }
+        p{
+            font-family: 'SF Pro Display';
+            color: #5856D6;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            margin: 11px 25px 44px 16px;
+        }
+        
+        .cuadro1, .cuadro2, .cuadro3{
+            width: 272px;
+            height: 242px;
+            display: flex;
+            background-color: white;
+            border-radius: 20px;
+            flex-direction: column;
+        }
+    }
+    // descarga info - inicio
+    .info-descarga{
+        width: 100%;
+        height: 167px;
+        background-color: #5856D6;
+        display: flex;
+        color: white;
+        justify-content: space-around;
+        .escanea{
+            width: 50%px;
+            height: 132px;
+            display: flex;
+            gap: 26px;
+            align-items: center;
+            img{
+                width: 100px;
+                height: 100px;
+            } 
+        }
+        .descarga{
+            width: 50%px;
+            height: 132px;
+            display: flex;
+            gap: 26px;
+            align-items: center;
+            img{
+                width: 213px;
+                height: 78px;
+            }
+        }
+    }
+    // Mi tienda 
+    .tienda{
+        display: flex;
+        justify-content: space-evenly;
+        height: 753px;
+        margin-top: 50px;
+
+        .card-info{
+            flex-direction: column;
+            h3{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 34px;
+                color: #FFCC00;
+            }
+            h5{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                color: #5856D6;
+                margin-bottom: 61px;
+            }
+        }
+        .formulario-tienda{
+            color: #5856D6;
+            font-weight: 700;
+            font-size: 20px;
+            form{ 
+                input{
+                    border: 1px solid #5856D6;
+                    border-radius: 10px;
+                    width: 359px;
+                    height: 43px;
+                    color: black;
+                    padding-left: 10px;
+                }
+                div{
+                    margin: 23px 0px 5px 0px;  
+                }
+            }
+            .mapa{
+                border-radius: 30px; 
+            }
+            .enviar-boton{
+                input{
+                    color: white;
+                    background-color: #5856D6;
+                    width: 106px;
+                    height: 50px;
+                    font-weight: 600;
+                    font-size: 17px; 
+                }
+            }
+        }
+    }
+    // Quienes somos
+    .main{
+        .somos-domii{
+            h2{
+                font-weight: 700;
+                font-size: 48px;
+                color: #5856D6;
+                text-align: center;
+                padding: 20px;
+            }
+            .texto1{
+                font-size: 20px;
+                color: black;
+                margin: 100px;
+            }
+        }
+    }
+    // pagina de registro
+    .registro{
+        display: flex;
+        height: 804px;
+        align-items: center;
+        .imagen1{
+            img{
+                width: 690px;
+                height: 602px;
+                border-radius: 30px;
+                margin-left: 40px;
+            }
+        }
+        .inicio-sesion{
+            margin-left: 125px;
+            .card-inicio{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                .inicioGoogle{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 12px 75px 12px 70px;
+                    gap: 10px;
+                    width: 359px;
+                    height: 58px;
+                    background: #5985E5;
+                    border-radius: 15px;
+                    color: white
+                }
+                .inicioFacebook, .inicioTwitter{
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 12px 75px 12px 60px;
+                    gap: 10px;
+                    width: 359px;
+                    height: 58px;
+                    border: 1px solid rgba(30, 30, 30, 0.2);
+                    border-radius: 15px;
+                }
+            }
+            h4{
+                color: black;
+                text-align: center;
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+            div{
+                margin: 10px;
+            }
+            .inputInicio{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div{
+                    border: 1px solid rgba(30, 30, 30, 0.2);
+                }
+                input{
+                    padding: 14px 75px 14px 20px;
+                    gap: 10px;
+                    width: 359px;
+                    height: 43px;
+                    border: 1px solid rgba(30, 30, 30, 0.2);
+                    border-radius: 10px;
+                    margin-top: 20px;
+                }
+                p{
+                    font-size: 14px;
+                    color: gray;
+                    text-align: center;
+                    margin-bottom: 10px;                   
+                }
+                .boton-inicio2{
+                    width: 359px;
+                    height: 43px;
+                    background: #5856D6;
+                    border-radius: 10px;
+                    margin-top: 20px;
+                    p{
+                        color: white;
+                        font-size: 16px;
+                        margin-top: 10px;
+                    }
+                }
+                .olvide1{
+                    margin-top: 20px;
+                    border: none;
+                }
+            }
+        }
+    }
+    // pagina Historial
+    .hit1{
+        h2{
+            color: #5856D6;
+            font-size: 48px;
+            margin: 20px 0px 20px 50px;
+        }
+    }
+    .historial1{
+        display: flex;
+        justify-content: space-around;
+        .card-historial{
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 402px;
+                height: 74px;
+                margin: 15px;
+                border-radius: 30px;
+                border: solid #5856D6;      
+                h4{
+                    color: #5856D6;
+                    padding: 14px 244px 2px 48px;                 
+                }       
+                p{
+                    color: #FFCC00;
+                    padding: 0px 244px 9px 48px;                
+                }
+                i{
+                    color: #5856D6;
+                    font-size: 20px;
+                }
+            }
+            .card-historia-1{
+                background-color: #5856D6;
+                h4{
+                    color: white;
+                }
+                i{
+                    color: white;
+                }
+            }
+        }
+        .card-mapa{
+            .card-mapa-1{
+                p{
+                    color: #5856D6;
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 11px;                
+                }
+            }
+            .card-mapa-2{
+                width: 355px;
+                height: 181px;
+                border-radius: 20px;
+                background: rgba(88, 86, 214, 0.5);
+                margin: 22px;
+                div{
+                    width: 289px;
+                    height: 65px;
+                    background-color: white;
+                    margin: 7px 30px 7px 37px;
+                    border-radius: 15px;                 
+                }
+                h5{
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: center;
+                    padding: 10px 0px 0px 0px;                   
+                }
+                p{
+                    font-size: 13px;
+                    color: #8E8E93;
+                    text-align: center;
+                    margin: 10px 0 5px 0;                   
+                }
+                i{
+                    color: #5856D6;
+                }
+            }
+        }
+        .card-info{
+            h4{
+                color: white;
+                font-size: 17px;
+                font-weight: 700;
+                padding-left: 15px;
+                padding-top: 12px;             
+            }
+            .tu-domii{
+                width: 355px;
+                height: 120px;
+                background: rgba(88, 86, 214, 0.5);
+                border-radius: 20px;
+                margin-bottom: 8px;
+                .dom{
+                    width: 319px;
+                    height: 51px;
+                    background: #F2F2F7;
+                    border-radius: 10px;
+                    margin: 18px 19px 16px 17px;
+                    display: flex;  
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        margin: 6px 0 5px 10px;                    
+                    }       
+                    i{
+                        color: yellow; 
+                    }   
+                    .dom1{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        margin-left: 10px;
+                        div{
+                            display: flex;
+                        }
+                        p{
+                            color: #5856D6;
+                            font-size: 15px;
+                            font-weight: 700;                    
+                        }    
+                        p:last-child{
+                            color: black;
+                        }
+                    }
+                }
+            }
+            .productos{
+                width: 355px;
+                height: 120px;
+                background: rgba(88, 86, 214, 0.5);
+                border-radius: 20px;
+                margin-bottom: 8px;
+                div{
+                    width: 293px;
+                    height: 68px;
+                    background: #FFFFFF;
+                    border: 2px solid #5856D6;
+                    border-radius: 10px;
+                    display: flex;
+                    margin: 11px 33px 24px 31px;
+                    align-items: center;
+                    justify-content: space-around;
+                    img{
+                        width: 53px;
+                        height: 44px;
+                        border-radius: 10px;                    
+                    }
+                }
+            }
+            .efectivo{
+                width: 355px;
+                height: 190px;
+                background: rgba(88, 86, 214, 0.5);
+                border-radius: 20px;
+                .ef{
+                    width: 291px;
+                    height: 86px;
+                    border-radius: 10px;
+                    background: #FFFFFF;
+                    border: 2px solid #5856D6;
+                    margin: 21px 33px 35px 31px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;   
+                    .ef1{
+                        font-size: 15px;
+                    }        
+                    .ef2{
+                        font-size: 13px;
+                        font-weight: 700;
+                        color: green; 
+                        p:first-child{
+                            color: red;
+                        }                   
+                    }     
+                }            
+            }
+            .boton-ayuda{
+                    width: 91px;
+                    height: 50px;
+                    background: #5856D6;
+                    border-radius: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 49px;
+                p{
+                    color: white;
+                    text-align: center;
+                    font-weight: bold;                  
+                }
+            }
+        }
+    }
+}

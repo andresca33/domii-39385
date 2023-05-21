@@ -1,0 +1,69 @@
+body{
+    font-family: 'SF Pro Display', sans-serif;    
+    a{
+        text-decoration: none;
+        color: #5856D6;
+    }    
+    ul{
+        list-style-type: none;
+    }                     
+}
+
+header{
+    .encabezado{
+        width: 100%;
+        height: 111px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aliceblue;
+
+        .logo{
+            margin: 24px;
+        }
+        .navbar{
+            .nav-list{
+                display: flex;
+                gap: 72px;
+                font-size: 24px;
+            }
+        }
+        .botones{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding-right: 2rem;   
+            
+            .boton-inicio{
+                width: 145px;
+                height: 50px;
+                color: white;
+                background: #5856D6;
+                border-radius: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ul{
+                    li{
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+            }            
+            .boton-registro{
+                width: 126px;
+                height: 50px;
+                border: 1px solid #5856D6;
+                border-radius: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }     
+        }
+        .botones-no{
+            display: none;
+        }
+    }
+}

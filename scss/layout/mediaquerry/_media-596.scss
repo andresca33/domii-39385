@@ -1,0 +1,131 @@
+@media (max-width:596px){
+    header{
+        .encabezado{
+            flex-direction: column;
+            height: auto;
+            .navbar{
+                .nav-list{
+                    align-items: center;
+                }
+            }
+            .logo{
+                margin: 10px 0px 0px 0px;
+            }
+            .botones{
+                padding-right: 0;
+                div{
+                    width: 101px;
+                    height: 40px;
+                    ul{
+                        li{
+                            a{
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+     
+    main{
+        .container{
+            .banner{
+                .banner-img{
+                    margin-right: 10px;
+                    img{
+                        width: 250px;
+                    }
+                }
+            }
+        }
+        .box{
+            .card, .card2, .card3{
+                height: 100px;
+                width: 284px;
+                img{
+                    margin-right: 0px;
+                    width: 100px;
+                    height: 100px;            
+                }
+                div{
+                    h3{
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 11px;
+                        width: 149px;                 
+                    }
+                }
+            }
+        }
+
+        // Ventajas - inicio
+        .titulo2{
+            h2{
+                font-size: 24px;
+            }
+        }
+        .ventajas{
+            p{
+                font-size: 12px;
+            }
+            h4{
+                font-size: 16px;
+            }
+        }
+        // Cuadros recomendaciones - inicio
+        .titulo3{
+            height: auto;
+            h2{
+                font-size: 24px;
+            }
+        }
+        .cuadros{
+            gap: auto;
+            padding: 20px;
+            p{
+                font-size: 14px;
+            }
+            .cuadro1, .cuadro2, .cuadro3{
+                height: auto;
+            }
+        }
+        // Pagina Quienes somos
+        .main{
+            .somos-domii{
+                h2{
+                    font-size: 30px;
+                }
+                .texto1{
+                    font-size: 14px;            
+                }
+    
+            }
+        }
+
+    }
+
+
+
+    footer{
+        div{
+            h4{
+                font-size: 16px;
+            }
+        }
+        .contacto{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .logosinfo{
+                a{
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

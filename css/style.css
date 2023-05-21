@@ -1,1227 +1,1044 @@
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98777,98776,98772,98773,98775,98770,98771,98769');
-
-                
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'SF Pro Display', sans-serif;                                         
-
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: #5856D6;
+}
+body ul {
+  list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-    color: #5856D6;
+header .encabezado {
+  width: 100%;
+  height: 111px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+header .encabezado .logo {
+  margin: 24px;
+}
+header .encabezado .navbar .nav-list {
+  display: flex;
+  gap: 72px;
+  font-size: 24px;
+}
+header .encabezado .botones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+header .encabezado .botones .boton-inicio {
+  width: 145px;
+  height: 50px;
+  color: white;
+  background: #5856D6;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .encabezado .botones .boton-inicio ul li a {
+  color: white;
+}
+header .encabezado .botones .boton-registro {
+  width: 126px;
+  height: 50px;
+  border: 1px solid #5856D6;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .encabezado .botones-no {
+  display: none;
 }
 
-ul{
-    list-style-type: none;
+footer {
+  width: 100%;
+  height: 394px;
+  background: #010047;
+  color: white;
+  display: flex;
+}
+footer a {
+  color: white;
+}
+footer .info {
+  width: 220px;
+  height: 282px;
+  margin: 53px 41px 59px 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .contacto {
+  margin-top: 53px;
+  width: 220px;
+  height: 282px;
+}
+footer .contacto .logosinfo a {
+  margin: 8px;
+  padding-top: 20px;
+}
+footer .contacto h4 {
+  margin-bottom: 22px;
 }
 
-/* Header */
-
-.encabezado{
-    width: 100%;
-    height: 111px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: aliceblue;
+main .container {
+  width: 100%;
+  height: 265px;
+}
+main .container .banner {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .container .banner .banner-text {
+  width: 50%;
+}
+main .container .banner .banner-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #5856D6;
+  margin-bottom: 20px;
+}
+main .container .banner .banner-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5856D6;
+  margin-bottom: 10px;
+}
+main .container .banner .banner-text h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5856D6;
+}
+main .box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+main .box .card, main .box .card2, main .box .card3 {
+  background: #5856D6;
+  border-radius: 34px;
+  height: 121px;
+  width: 345px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+main .box .card img, main .box .card2 img, main .box .card3 img {
+  margin-right: 15px;
+}
+main .box .card div, main .box .card2 div, main .box .card3 div {
+  color: white;
+  margin: 20px;
+}
+main .box .card div h3, main .box .card2 div h3, main .box .card3 div h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+main .box .card div p, main .box .card2 div p, main .box .card3 div p {
+  font-size: 14px;
+}
+main .titulo2 {
+  width: 100%;
+  height: auto;
+  background-color: #5856D6;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+main .titulo2 h2 {
+  padding: 30px;
+}
+main .ventajas {
+  background-color: #5856D6;
+  color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  gap: 20px;
+}
+main .ventajas img {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+main .ventajas h4 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+main .ventajas p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+main .ventajas .ventajas1, main .ventajas .ventajas2, main .ventajas .ventajas3 {
+  width: 849px;
+  height: 100%;
+  display: flex;
+}
+main .titulo3 {
+  width: 100%;
+  height: 120px;
+}
+main .titulo3 h2 {
+  font-size: 48px;
+  color: #5856D6;
+  text-align: center;
+}
+main .cuadros {
+  background-color: #5856D6;
+  width: 100%;
+  display: flex;
+  flex-direction: row wrap;
+  gap: 55px;
+  justify-content: center;
+  padding-top: 44px;
+  padding-bottom: 30px;
+}
+main .cuadros h4 {
+  color: #5856D6;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-size: 20px;
+  margin: 11px 80px 11px 16px;
+}
+main .cuadros p {
+  font-family: "SF Pro Display";
+  color: #5856D6;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 11px 25px 44px 16px;
+}
+main .cuadros .cuadro1, main .cuadros .cuadro2, main .cuadros .cuadro3 {
+  width: 272px;
+  height: 242px;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  flex-direction: column;
+}
+main .info-descarga {
+  width: 100%;
+  height: 167px;
+  background-color: #5856D6;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+main .info-descarga .escanea {
+  width: 50% px;
+  height: 132px;
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+main .info-descarga .escanea img {
+  width: 100px;
+  height: 100px;
+}
+main .info-descarga .descarga {
+  width: 50% px;
+  height: 132px;
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+main .info-descarga .descarga img {
+  width: 213px;
+  height: 78px;
+}
+main .tienda {
+  display: flex;
+  justify-content: space-evenly;
+  height: 753px;
+  margin-top: 50px;
+}
+main .tienda .card-info {
+  flex-direction: column;
+}
+main .tienda .card-info h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  color: #FFCC00;
+}
+main .tienda .card-info h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5856D6;
+  margin-bottom: 61px;
+}
+main .tienda .formulario-tienda {
+  color: #5856D6;
+  font-weight: 700;
+  font-size: 20px;
+}
+main .tienda .formulario-tienda form input {
+  border: 1px solid #5856D6;
+  border-radius: 10px;
+  width: 359px;
+  height: 43px;
+  color: black;
+  padding-left: 10px;
+}
+main .tienda .formulario-tienda form div {
+  margin: 23px 0px 5px 0px;
+}
+main .tienda .formulario-tienda .mapa {
+  border-radius: 30px;
+}
+main .tienda .formulario-tienda .enviar-boton input {
+  color: white;
+  background-color: #5856D6;
+  width: 106px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 17px;
+}
+main .main .somos-domii h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #5856D6;
+  text-align: center;
+  padding: 20px;
+}
+main .main .somos-domii .texto1 {
+  font-size: 20px;
+  color: black;
+  margin: 100px;
+}
+main .registro {
+  display: flex;
+  height: 804px;
+  align-items: center;
+}
+main .registro .imagen1 img {
+  width: 690px;
+  height: 602px;
+  border-radius: 30px;
+  margin-left: 40px;
+}
+main .registro .inicio-sesion {
+  margin-left: 125px;
+}
+main .registro .inicio-sesion .card-inicio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .registro .inicio-sesion .card-inicio .inicioGoogle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 75px 12px 70px;
+  gap: 10px;
+  width: 359px;
+  height: 58px;
+  background: #5985E5;
+  border-radius: 15px;
+  color: white;
+}
+main .registro .inicio-sesion .card-inicio .inicioFacebook, main .registro .inicio-sesion .card-inicio .inicioTwitter {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 75px 12px 60px;
+  gap: 10px;
+  width: 359px;
+  height: 58px;
+  border: 1px solid rgba(30, 30, 30, 0.2);
+  border-radius: 15px;
+}
+main .registro .inicio-sesion h4 {
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+main .registro .inicio-sesion div {
+  margin: 10px;
+}
+main .registro .inicio-sesion .inputInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .registro .inicio-sesion .inputInicio div {
+  border: 1px solid rgba(30, 30, 30, 0.2);
+}
+main .registro .inicio-sesion .inputInicio input {
+  padding: 14px 75px 14px 20px;
+  gap: 10px;
+  width: 359px;
+  height: 43px;
+  border: 1px solid rgba(30, 30, 30, 0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+main .registro .inicio-sesion .inputInicio p {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 10px;
+}
+main .registro .inicio-sesion .inputInicio .boton-inicio2 {
+  width: 359px;
+  height: 43px;
+  background: #5856D6;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+main .registro .inicio-sesion .inputInicio .boton-inicio2 p {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+main .registro .inicio-sesion .inputInicio .olvide1 {
+  margin-top: 20px;
+  border: none;
+}
+main .hit1 h2 {
+  color: #5856D6;
+  font-size: 48px;
+  margin: 20px 0px 20px 50px;
+}
+main .historial1 {
+  display: flex;
+  justify-content: space-around;
+}
+main .historial1 .card-historial div {
+  display: flex;
+  flex-direction: column;
+  width: 402px;
+  height: 74px;
+  margin: 15px;
+  border-radius: 30px;
+  border: solid #5856D6;
+}
+main .historial1 .card-historial div h4 {
+  color: #5856D6;
+  padding: 14px 244px 2px 48px;
+}
+main .historial1 .card-historial div p {
+  color: #FFCC00;
+  padding: 0px 244px 9px 48px;
+}
+main .historial1 .card-historial div i {
+  color: #5856D6;
+  font-size: 20px;
+}
+main .historial1 .card-historial .card-historia-1 {
+  background-color: #5856D6;
+}
+main .historial1 .card-historial .card-historia-1 h4 {
+  color: white;
+}
+main .historial1 .card-historial .card-historia-1 i {
+  color: white;
+}
+main .historial1 .card-mapa .card-mapa-1 p {
+  color: #5856D6;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+main .historial1 .card-mapa .card-mapa-2 {
+  width: 355px;
+  height: 181px;
+  border-radius: 20px;
+  background: rgba(88, 86, 214, 0.5);
+  margin: 22px;
+}
+main .historial1 .card-mapa .card-mapa-2 div {
+  width: 289px;
+  height: 65px;
+  background-color: white;
+  margin: 7px 30px 7px 37px;
+  border-radius: 15px;
+}
+main .historial1 .card-mapa .card-mapa-2 h5 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+main .historial1 .card-mapa .card-mapa-2 p {
+  font-size: 13px;
+  color: #8E8E93;
+  text-align: center;
+  margin: 10px 0 5px 0;
+}
+main .historial1 .card-mapa .card-mapa-2 i {
+  color: #5856D6;
+}
+main .historial1 .card-info h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-top: 12px;
+}
+main .historial1 .card-info .tu-domii {
+  width: 355px;
+  height: 120px;
+  background: rgba(88, 86, 214, 0.5);
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+main .historial1 .card-info .tu-domii .dom {
+  width: 319px;
+  height: 51px;
+  background: #F2F2F7;
+  border-radius: 10px;
+  margin: 18px 19px 16px 17px;
+  display: flex;
+}
+main .historial1 .card-info .tu-domii .dom img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 6px 0 5px 10px;
+}
+main .historial1 .card-info .tu-domii .dom i {
+  color: yellow;
+}
+main .historial1 .card-info .tu-domii .dom .dom1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+main .historial1 .card-info .tu-domii .dom .dom1 div {
+  display: flex;
+}
+main .historial1 .card-info .tu-domii .dom .dom1 p {
+  color: #5856D6;
+  font-size: 15px;
+  font-weight: 700;
+}
+main .historial1 .card-info .tu-domii .dom .dom1 p:last-child {
+  color: black;
+}
+main .historial1 .card-info .productos {
+  width: 355px;
+  height: 120px;
+  background: rgba(88, 86, 214, 0.5);
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+main .historial1 .card-info .productos div {
+  width: 293px;
+  height: 68px;
+  background: #FFFFFF;
+  border: 2px solid #5856D6;
+  border-radius: 10px;
+  display: flex;
+  margin: 11px 33px 24px 31px;
+  align-items: center;
+  justify-content: space-around;
+}
+main .historial1 .card-info .productos div img {
+  width: 53px;
+  height: 44px;
+  border-radius: 10px;
+}
+main .historial1 .card-info .efectivo {
+  width: 355px;
+  height: 190px;
+  background: rgba(88, 86, 214, 0.5);
+  border-radius: 20px;
+}
+main .historial1 .card-info .efectivo .ef {
+  width: 291px;
+  height: 86px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: 2px solid #5856D6;
+  margin: 21px 33px 35px 31px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .historial1 .card-info .efectivo .ef .ef1 {
+  font-size: 15px;
+}
+main .historial1 .card-info .efectivo .ef .ef2 {
+  font-size: 13px;
+  font-weight: 700;
+  color: green;
+}
+main .historial1 .card-info .efectivo .ef .ef2 p:first-child {
+  color: red;
+}
+main .historial1 .card-info .boton-ayuda {
+  width: 91px;
+  height: 50px;
+  background: #5856D6;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 49px;
+}
+main .historial1 .card-info .boton-ayuda p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
 }
 
-.logo{
-    margin: 24px;
-}
-
-/* Navbar */
-
-.nav-list{
-    display: flex;
-    gap: 72px;
-    font-size: 24px;
-} 
-
-
-/* Botones Inicio/Registro*/
-
-.botones{
-    display: flex;
-    align-items:center ;
-    justify-content: space-between;
-    gap: 1rem;
-    padding-right: 2rem;
-}   
-
-.boton-inicio{
-    padding: 14px 20px;
-    width: 145px;
-    height: 50px;
-    color: white;
-    background: #5856D6;
-    border-radius: 14px;
-    text-align: center;
-}
-
-.boton-registro{
-    padding: 14px 20px;
-    width: 126px;
-    height: 50px;
-    border: 1px solid #5856D6;
-    border-radius: 14px;
-    text-align: center;
-}
-
-.boton-inicio a{
-    color: white;
-}
-
-/* Banner */
-.container{
-    width: 100%;
-    height: 265px;
-}
-
-.banner{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-}
-
-.banner-text{
-    width: 50%;
-
-}
-
-.banner-text h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: #5856D6;
-    margin-bottom: 20px;
-}
-
-.banner-text h3{
-    font-size: 24px;
-    font-weight: bold;
-    color: #5856D6;
-    margin-bottom: 10px;
-}
-
-.banner-text h4{
+@media (max-width: 900px) {
+  header .encabezado .navbar .nav-list {
     font-size: 18px;
-    font-weight: bold;
-    color: #5856D6;
-}
-
-/* Cards */
-.box{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.card{
-    background: #5856D6;
-    border-radius: 34px;
-    height: 121px;
-    width: 345px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.card2{
-    background: #5856D6;
-    border-radius: 34px;
-    height: 121px;
-    width: 345px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.card3{
-    background: #5856D6;
-    border-radius: 34px;
-    height: 121px;
-    width: 345px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.box div{
-    color: white;
-    margin: 20px;
-}
-
-.box div h3{
-    font-size: 22px;
+    gap: 30px;
+    margin-left: auto;
+  }
+  header .encabezado .botones {
+    flex-direction: column;
+    gap: 0.5rem;
     margin-bottom: 10px;
-}
-
-.box div p{
-    font-size: 14px;
-}
-
-.box div img{
-    margin-right: 15px;
-}
-
-/* Ventajas */
-
-.titulo2{
-    width: 100%;
-    height: auto;
-    background-color: #5856D6;
-    color: white;
-    font-size: 35px;
-    text-align: center;
-}
-
-.titulo2 h2{
-    padding: 30px;
-}
-
-.ventajas{
-    background-color: #5856D6;
-    color: white;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ventajas img{
-    margin: 5px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: #FFFFFF;
-}
-
-.ventajas1{
-    width: 849px;
-    height: 127px;
-    display: flex;
-}
-
-.ventajas h4{
-    font-size: 20px;
-    margin-left: 20px;
-}
-
-.ventajas p{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-.ventajas2{
-    width: 849px;
-    height: 127px;
-    display: flex;
-}
-
-.ventajas3{
-    width: 849px;
-    height: 127px;
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.titulo3{
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.titulo3 h2{
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 57px;
-    color: #5856D6;
-}
-
-.cuadros{
-    background-color: #5856D6;
-    width: 100%;
-    display: flex;
-    flex-direction: row wrap;
-    gap: 55px;
-    justify-content: center;
-    padding-top: 44px;
-    padding-bottom: 30px;
-}
-
-.cuadro1{
-    width: 272px;
-    height: 242px;
-    display: flex;
-    background-color: white;
-    border-radius: 20px;
-    flex-direction: column;
-    
-}
-
-.cuadro2{
-    width: 272px;
-    height: 242px;
-    display: flex;
-    background-color: white;
-    border-radius: 20px;
-    flex-direction: column;
-    
-}
-
-.cuadro3{
-    width: 272px;
-    height: 242px;
-    display: flex;
-    background-color: white;
-    border-radius: 20px;
-    flex-direction: column;
-    
-}
-
-.cuadros h4{
-    color: #5856D6;
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-size: 20px;
-    margin: 11px 80px 11px 16px;
-}
-
-.cuadros p{
-    font-family: 'SF Pro Display';
-    color: #5856D6;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    margin: 11px 25px 44px 16px;
-}
-
-.info-descarga{
-    width: 100%;
-    height: 167px;
-    background-color: #5856D6;
-    display: flex;
-    color: white;
-    justify-content: space-around;
-}
-
-
-.escanea{
-    width: 50%px;
-    height: 132px;
-    display: flex;
-    gap: 26px;
-    align-items: center;
-}
-
-.escanea img{
-    width: 100px;
-    height: 100px;
-}
-
-.descarga{
-    width: 50%px;
-    height: 132px;
-    display: flex;
-    gap: 26px;
-    align-items: center;
-
-
-}
-
-.descarga img{
-    width: 213px;
-    height: 78px;
-}
-
-footer{
-    width: 100%;
-    height: 394px;
-    background: #010047;
-    color: white;
-    display: flex;
-}
-
-footer a{
-    color: white;
-}
-
-.info{
-    width: 220px;
-    height: 282px;
-    margin: 53px 41px 59px 172px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.contacto{
-    margin-top: 53px;
-    width: 220px;
-    height: 282px;
-}
-
-.logosinfo a{
-    margin: 8px;
-    padding-top: 20px;
-}
-
-.contacto h4{
-    margin-bottom: 22px;
-}
-
-.tienda{
-    display: flex;
-    justify-content: space-evenly;
-    width: 1440px;
-    height: 753px;
-    align-items: center;
-}
-
-.card-info{
-    flex-direction: column;
-
-}
-
-.card-info h3{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 34px;
-    color: #FFCC00;
-    margin-bottom: 10px;
-}
-
-.card-info h5{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    color: #5856D6;
-    margin-bottom: 61px;
-}
-
-.formulario-tienda{
-    color: #5856D6;
-    font-weight: 700;
-    font-size: 20px;
-}
- form input{
-    border: 1px solid #5856D6;
-    border-radius: 10px;
-    width: 359px;
-    height: 43px;
-    color: black;
- }
-
- form div{
-    margin: 23px 0px 5px 0px;
- }
-
- .enviar-boton input{
-    color: white;
-    background-color: #5856D6;
-    width: 106px;
-    height: 50px;
-    font-weight: 600;
-    font-size: 17px;
- }
-
- .mapa{
-    border-radius: 30px;
- }
-
- .somos-domii h2{
-    font-weight: 700;
-    font-size: 48px;
-    color: #5856D6;
-    margin: 0px 0px 21px 81px;
- }
-
- .nosotros{
-    display: flex
- }
- .imagen-nosotros img{
-    width: 690px;
-    height: 602px;
-    border-radius: 30px;
-    margin-left: 80px;
- }
-
- .nosotros p{
-    width: 559px;
-    height: 585px;
-    font-size: 20px;
-    color: #5856D6;
-    margin: 0px 54px 0 57px;
- }
-
- .registro{
-    display: flex;
-    height: 804px;
-    align-items: center;
- }
-
- .imagen1 img{
-    width: 690px;
-    height: 602px;
-    border-radius: 30px;
-    margin-left: 40px;
-    
- }
-
- .inicioGoogle{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 75px 12px 70px;
-    gap: 10px;
-    width: 359px;
-    height: 58px;
-    background: #5985E5;
-    border-radius: 15px;
- }
-
- .inicioGoogle p{
-    color: white;
- }
-
-.inicioFacebook{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 75px 12px 70px;
-    gap: 10px;
-    width: 359px;
-    height: 58px;
-    border: 1px solid rgba(30, 30, 30, 0.2);
-    border-radius: 15px;
-}
-
-.inicioFacebook p{
-    color: black;
-}
-
-.inicioTwitter{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 75px 12px 70px;
-    gap: 10px;
-    width: 359px;
-    height: 58px;
-    border: 1px solid rgba(30, 30, 30, 0.2);
-    border-radius: 15px;
-}
-
-.inicioTwitter p{
-    color: black;
-}
-
-.inputInicio div{
-    border: 1px solid rgba(30, 30, 30, 0.2);
-
-}
-
-.inputInicio input{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 14px 75px 14px 20px;
-    gap: 10px;
-    width: 359px;
-    height: 43px;
-    border: 1px solid rgba(30, 30, 30, 0.2);
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.inicio-sesion h4{
-    color: black;
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.inicio-sesion div{
-    margin: 20px;
-}
-
-.inicio-sesion{
-    margin-left: 125px;
-}
-
-#contraseña{
-    margin-bottom: 20px;
-}
-
-
-.inputInicio p{
-    font-size: 14px;
-    color: gray;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.boton-inicio2{
-    width: 359px;
-    height: 43px;
-    background: #5856D6;
-    border-radius: 10px;
-}
-
-.boton-inicio2 p{
-    color: white;
-    font-size: 16px;
-}
-
-.separador{
-    color: gray;
-    text-align: center;
-    font-size: 20px;
-}
-
-.hit1 h2{
-    color: #5856D6;
-    font-size: 48px;
-}
-
-.card-historial{
-    width: 402px;
-    height: 430px;
-}
-
-.historial1{
-    display: flex;
-}
-
-.card-historial{
-    width: 560px;
-    height: 683px;
-}
-
-.card-mapa{
-    width: 451px;
-    height: 683px;
-    margin-left: 78px;
-}
-
-.card-info{
-    width: 410px;
-    height: 683px;
-    margin-left: 78px;
-}
-
-.card-historial div{
-    width: 402px;
-    height: 74px;
-    margin: 15px;
-    border-radius: 30px;
-    border: solid #5856D6;  
-}
-.card-historia-1{
-    width: 402px;
-    height: 74px;
-    background-color: #5856D6;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-}
-.card-historial i{
-    display: flex;
-    justify-content:end;
-}
-
-.card-historial div h4{
-    color: #5856D6;
-    padding: 14px 244px 2px 48px;
-}
-
-.card-historial div p{
-    color: #FFCC00;
-    padding: 0px 244px 9px 48px;
-
-}
-
-.card-historial .card-historia-1 h4{
-    color: white;
-}
-
-.card-historial i{
-    color: black;
-    font-size: 20px;
-}
-
-.card-mapa-1 p{
-    color: #5856D6;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 11px;
-}
-
-.card-mapa-2{
-    width: 355px;
-    height: 181px;
-    border-radius: 20px;
-    background: rgba(88, 86, 214, 0.5);
-    margin: 22px;
-}
-
-.card-mapa-2 div{
-    width: 289px;
-    height: 65px;
-    background-color: white;
-    margin: 7px 30px 7px 37px;
-    border-radius: 15px;
-}
-
-.card-mapa-2 h5{
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    padding: 10px 0px 0px 0px;
-}
-
-.card-mapa-2 p{
-    font-size: 13px;
-    color: #8E8E93;
-    text-align: center;
-    margin: 10px 0 5px 0;
-}
-
-.card-mapa-2 i{
-    color: #5856D6;
-
-}
-
-.tu-domii{
-    width: 355px;
-    height: 120px;
-    background: rgba(88, 86, 214, 0.5);
-    border-radius: 20px;
-    margin-bottom: 8px;
-}
-
-.card-info h4{
-    color: white;
-    font-size: 17px;
-    font-weight: 700;
-    padding-left: 15px;
-    padding-top: 12px;
-}
-
-.dom{
-    width: 319px;
-    height: 51px;
-    background: #F2F2F7;
-    border-radius: 10px;
-    margin: 18px 19px 16px 17px;
-    display: flex;
-}
-
-.tu-domii img{
-    width: 40px;
+  }
+  header .encabezado .botones .boton-inicio, header .encabezado .botones .boton-registro {
+    width: 120px;
     height: 40px;
-    border-radius: 50%;
-    margin: 6px 0 5px 10px;
-}
-
-.dom i{
-    color: yellow;
-}
-
-.tu-domii p{
-    color: #5856D6;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.tu-domii p:last-child{
-    color: black;
-}
-
-.dom1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 10px;
-}
-
-.dom1 div{
-    display: flex;
-}
-
-.productos{
-    width: 355px;
-    height: 120px;
-    background: rgba(88, 86, 214, 0.5);
-    border-radius: 20px;
-    margin-bottom: 8px;
-}
-
-
-.productos div{
-    width: 293px;
-    height: 68px;
-    background: #FFFFFF;
-    border: 2px solid #5856D6;
-    border-radius: 10px;
-    display: flex;
-    margin: 11px 33px 24px 31px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.productos div img{
-    width: 53px;
-    height: 44px;
-    border-radius: 10px;
-}
-
-.efectivo{
-    width: 355px;
-    height: 190px;
-    background: rgba(88, 86, 214, 0.5);
-    border-radius: 20px;
-}
-
-.ef{
-    width: 291px;
-    height: 86px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: 2px solid #5856D6;
-    margin: 21px 33px 35px 31px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.ef1{
-    font-size: 15px;
-}
-
-.ef2{
+    padding: 0;
+  }
+  header .encabezado .botones .boton-inicio ul li a, header .encabezado .botones .boton-registro ul li a {
     font-size: 13px;
-    font-weight: 700;
-    color: green;
-}
-
-.ef2 p:first-child{
-    color: red;
-}
-
-.boton-ayuda{
-    width: 91px;
-    height: 50px;
-    background: #5856D6;
-    border-radius: 14px;
-    display: flex;
+  }
+  main .container .banner .banner-text {
+    margin: 20px;
+    padding-top: 10px;
+  }
+  main .container .banner .banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  main .container .banner .banner-text h4 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  main .container .banner .banner-img img {
+    width: 300px;
+  }
+  main .box div {
+    margin-bottom: 30px;
+  }
+  main .titulo2 h2 {
+    font-size: 28px;
+  }
+  main .ventajas .ventajas1, main .ventajas .ventajas2, main .ventajas .ventajas3 {
+    width: 80%;
+    margin: 1rem;
+  }
+  main .titulo3 {
+    height: auto;
+  }
+  main .titulo3 h2 {
+    font-size: 28px;
+  }
+  main .cuadros {
+    gap: 10px;
+  }
+  main .info-descarga {
+    gap: 10px;
+  }
+  main .main .somos-domii h2 {
+    font-size: 40px;
+  }
+  main .main .somos-domii .texto1 {
+    margin: 60px;
+  }
+  main .registro {
+    flex-direction: column-reverse;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  main .registro .imagen1 {
+    margin-bottom: 30px;
+  }
+  main .registro .imagen1 img {
+    margin-left: 0;
+    width: auto;
+    height: 300px;
+  }
+  main .registro .inicio-sesion {
+    margin: 30px 0px 10px 0px;
+  }
+  main .tienda .card-info h3 {
+    font-size: 28px;
+  }
+  main .tienda .card-info h5 {
+    font-size: 20px;
+  }
+  main .tienda .card-info .img {
+    width: 10px;
+  }
+  main .hit1 h2 {
+    font-size: 30px;
+  }
+  main .historial1 {
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 49px;
-}
-
-.boton-ayuda p{
-    color: white;
+    height: auto;
+  }
+  main .historial1 .card-historial {
+    padding-bottom: 40px;
+  }
+  main .historial1 .card-mapa .card-mapa-1 {
     text-align: center;
-    font-weight: bold;
+  }
+  main .historial1 .card-mapa .card-mapa-1 p {
+    margin-bottom: 20px;
+  }
+  main .historial1 .card-mapa .card-mapa-1 img {
+    width: 70%;
+  }
+  main .historial1 .card-info {
+    margin-bottom: 60px;
+  }
+  main .historial1 .card-info .boton-ayuda {
+    margin-top: 20px;
+  }
+  footer .info {
+    margin: 53px 41px 59px 30px;
+  }
 }
-
-.navbar-nav a{
-    color: #5856D6;
-    font-size: 25px;
+@media (max-width: 744px) {
+  header .encabezado .logo {
+    height: auto;
+  }
+  header .encabezado .navbar .nav-list {
+    flex-direction: column;
+    font-size: 16px;
+    gap: 5px;
+    padding: 1rem;
+  }
+  header .encabezado .botones div {
+    align-items: center;
+  }
+  main .container {
+    height: auto;
+    margin-bottom: 15px;
+  }
+  main .container .banner .banner-text h1 {
+    font-size: 22px;
+  }
+  main .container .banner .banner-text h4 {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  main .container .banner .banner-text h3 {
+    font-size: 18px;
+  }
+  main .titulo2 h2 {
+    margin-top: 10px;
+  }
+  main .ventajas {
+    padding-bottom: 50px;
+  }
+  main .ventajas p {
+    font-size: 15px;
+  }
+  main .ventajas .ventajas1, main .ventajas .ventajas2, main .ventajas .ventajas3 {
+    margin-top: 30px;
+  }
+  main .cuadros {
+    gap: 25px;
+  }
+  main .cuadros h4 {
+    margin: 5px 80px 5px 16px;
+  }
+  main .cuadros .cuadro1, main .cuadros .cuadro2, main .cuadros .cuadro3 {
+    width: 187px;
+    height: auto;
+  }
+  main .info-descarga .escanea {
+    flex-direction: column;
+    gap: 0px;
+  }
+  main .info-descarga .descarga {
+    gap: 10px;
+    flex-direction: column;
+  }
+  main .main .somos-domii h2 {
+    font-size: 40px;
+  }
+  main .main .somos-domii .texto1 {
+    margin: 20px 30px 20px 30px;
+    font-size: 16px;
+  }
+  main .tienda {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 596px) {
+  header .encabezado {
+    flex-direction: column;
+    height: auto;
+  }
+  header .encabezado .navbar .nav-list {
+    align-items: center;
+  }
+  header .encabezado .logo {
+    margin: 10px 0px 0px 0px;
+  }
+  header .encabezado .botones {
+    padding-right: 0;
+  }
+  header .encabezado .botones div {
+    width: 101px;
+    height: 40px;
+  }
+  header .encabezado .botones div ul li a {
+    font-size: 11px;
+  }
+  main .container .banner .banner-img {
+    margin-right: 10px;
+  }
+  main .container .banner .banner-img img {
+    width: 250px;
+  }
+  main .box .card, main .box .card2, main .box .card3 {
+    height: 100px;
+    width: 284px;
+  }
+  main .box .card img, main .box .card2 img, main .box .card3 img {
+    margin-right: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  main .box .card div h3, main .box .card2 div h3, main .box .card3 div h3 {
+    font-size: 16px;
+  }
+  main .box .card div p, main .box .card2 div p, main .box .card3 div p {
+    font-size: 11px;
+    width: 149px;
+  }
+  main .titulo2 h2 {
+    font-size: 24px;
+  }
+  main .ventajas p {
+    font-size: 12px;
+  }
+  main .ventajas h4 {
+    font-size: 16px;
+  }
+  main .titulo3 {
+    height: auto;
+  }
+  main .titulo3 h2 {
+    font-size: 24px;
+  }
+  main .cuadros {
+    gap: auto;
+    padding: 20px;
+  }
+  main .cuadros p {
+    font-size: 14px;
+  }
+  main .cuadros .cuadro1, main .cuadros .cuadro2, main .cuadros .cuadro3 {
+    height: auto;
+  }
+  main .main .somos-domii h2 {
+    font-size: 30px;
+  }
+  main .main .somos-domii .texto1 {
+    font-size: 14px;
+  }
+  footer div h4 {
+    font-size: 16px;
+  }
+  footer .contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .contacto .logosinfo a img {
+    width: 20px;
+  }
+}
+@media (max-width: 393px) {
+  header .encabezado .logo {
+    height: 50px;
+    width: auto;
+    margin: 1rem;
+  }
+  main .container .banner {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  main .container .banner .banner-text {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  main .container .banner .banner-img {
+    margin: 0;
     text-align: center;
-}
-
-.navbar-nav{
-    margin-left: 200px;
-    gap: 50px;
-}
-
-.texto1 p{
-    margin:50px 100px 50px 100px;
+  }
+  main .container .banner .banner-img img {
+    width: 70%;
+  }
+  main .titulo2 {
+    text-align: center;
+  }
+  main .titulo2 h2 {
     font-size: 20px;
-}
-
-@media (max-width:900px){
-    .banner-text{
-        width: 50%;
-        margin: 20px;
-        padding-top: 10px;
-    }
-    .banner-text h1{
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    .banner-text h4{
-        font-size: 16px;
-        font-weight: 500;
-    }
-    .banner-img img{
-        width: 400px;
-    }
-    .nav-list{
-        font-size: 18px;
-        gap: 30px;
-        margin-left: auto;
-    }
-    .titulo2 h2{
-        font-size: 28px;
-        padding: ;
-    }
-    .titulo3 h2{
-        font-size: 28px;
-    }
-    .cuadros{
-        gap: 10px;
-    }
-    .escanea,
-    .descarga {
-        gap: 10px;
-    }
-    .ventajas1,.ventajas2,.ventajas3{
-        width: 80%;
-        margin: 1rem;
-    }
-    .ventajas{
-        margin-bottom: ;
-    }
-    .info{
-        margin: 53px 41px 59px 30px;
-    }
-    .botones{
-        flex-direction: column;
-        gap: 0.5rem;
-        margin-bottom: 10px;
-        
-    }   
-    
-    .boton-inicio{
-        width: 120px;
-        height: 40px;
-    }
-    
-    .boton-registro{
-        width: 120px;
-        height: 40px;
-    }
-    
-    .boton-inicio ul li a{
-        font-size: 13px;
-    }
-    .boton-registro ul li a{
-        font-size: 13px;
-    }
-}
-
-
-@media (max-width:990px){
-
-}
-
-@media (max-width:744px){
-    .banner-text h1{
-        font-size: 22px;
-        margin-bottom: 10px;
-    }
-    .container{
-        height: auto;
-        margin-bottom: 15px;
-    }
-    
-    .nav-list{
-        flex-direction:column;
-        gap: 5px;
-        font-size: 16px;
-        padding: 1rem;
-    }
-    
-    .banner-text h3{
-        font-size: 18px;
-    }
-    
-    .banner-text h4{
-        font-size: 12px;
-        font-weight: 300;
-    }
-
-    .logo{
-        height: auto;
-    }
-
-    .titulo2{
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    .ventajas1,.ventajas2,.ventajas3{
-        width: 80%;
-        margin: 1rem;
-    }
-    .cuadros h4{
-        margin: 5px 80px 5px 16px;
-    }
-    .titulo3 h2{
-        font-size: 28px;
-    }
-    .cuadros{
-        gap: 20px;
-    }
-    .cuadro1{
-        width: 187px;
-        height: 320px;
-    }
-    .cuadro2{
-        width: 187px;
-        height: 320px;
-
-    }
-    .cuadro3{
-        width: 187px;
-        height: 320px;
-    }
-    .escanea{
-        flex-direction: column;
-        gap: 0px;
-    }
-    .descarga{
-        gap: 10px;
-        flex-direction: column;
-    }
-    .info{
-        margin: 53px 41px 59px 30px;
-    }
-    .texto1 p{
-        margin:30px 50px 30px 50px;
-        font-size: 16px;
-    }
-    .somos-domii h2{
-        font-size: 40px;
-    }
-    .botones div{
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media (max-width:596px){
-    .encabezado{
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-    }
-
-    .nav-list{
-        align-items: center;
-    }
-    .boton-inicio{
-        width: 101px;
-        height: 40px;
-    }
-    
-    .boton-registro{
-        width: 101px;
-        height: 40px;
-    }
-    .boton-inicio ul li a{
-        font-size: 11px;
-        
-    }
-    .boton-registro ul li a{
-        font-size: 11px;
-    }
-    .logo{
-        margin: 0;
-    }
-    .info h4{
-        font-size: 16px;
-    }
-    .contacto h4{
+    margin-top: 0;
+  }
+  main .ventajas {
+    height: 100%;
+  }
+  main .ventajas .ventajas1, main .ventajas .ventajas2, main .ventajas .ventajas3 {
+    height: 100%;
+    width: 351px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .titulo3 h2 {
+    line-height: 28px;
+    font-size: 20px;
+  }
+  main .cuadros {
+    gap: 10px;
+  }
+  main .cuadros div {
+    width: 169px;
+    height: 380px;
+  }
+  main .cuadros div:last-child {
+    display: none;
+  }
+  main .info-descarga {
+    flex-direction: column;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  main .info-descarga .escanea {
+    margin-bottom: 30px;
+  }
+  main .main .somos-domii h2 {
+    font-size: 20px;
+  }
+  main .main .somos-domii .texto1 p {
+    margin: 0px;
+    font-size: 14px;
+  }
+  main .registro .imagen1 img {
+    width: 269px;
+    height: auto;
+  }
+  main .registro .inicio-sesion h4 {
+    font-size: 28px;
+  }
+  main .registro .inicio-sesion .card-inicio .inicioGoogle {
+    padding: 0px 10px 0px 30px;
+    width: 269px;
+    height: 58px;
+  }
+  main .registro .inicio-sesion .card-inicio .inicioFacebook, main .registro .inicio-sesion .card-inicio .inicioTwitter {
+    padding: 0px 10px 0px 30px;
+    width: 269px;
+    height: 58px;
+  }
+  main .registro .inicio-sesion .inputInicio input {
+    width: 269px;
+  }
+  main .registro .inicio-sesion .inputInicio .boton-inicio2 {
+    width: 269px;
+  }
+  main .tienda .card-info h3 {
+    font-size: 20px;
+  }
+  main .tienda .card-info h5 {
+    font-size: 18px;
+  }
+  main .tienda .card-info img {
+    width: 200px;
+  }
+  main .tienda .formulario-tienda {
     font-size: 16px;
-    }
-    .logosinfo a img{
-    width: 20px;
-    }
-    .contacto{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .somos-domii h2{
-        font-size: 30px;
-    }
-
-}
-
-@media (max-width: 393px){
-    /* .encabezado{
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .nav-list{
-        align-items: center;
-    }
-    .boton-inicio{
-        width: 101px;
-        height: 40px;
-    }
-    
-    .boton-registro{
-        width: 101px;
-        height: 40px;
-    }
-    .boton-inicio ul li a{
-        font-size: 11px;
-        
-    }
-    .boton-registro ul li a{
-        font-size: 11px;
-    } */
-
-    .banner{
-        flex-direction: column;
-        align-items: center;
-    }
-    .banner-text{
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    .logo{
-        height: 50px;
-        width: auto;
-        margin: 1rem;
-    }
-    .banner-img img{
-        width: 70%;
-    }
-
-
-    .card{
-        height: 100px;
-        width: 284px;
-    }
-    .card2{
-        height: 100px;
-        width: 284px;
-    }
-    .card3{
-        height: 100px;
-        width: 284px;
-    }
-    .box div h3{
-        font-size: 16px;
-    }
-    .box div p{
-        font-size: 11px;
-        width: 149px;
-    }
-    .box div img{
-        margin-right: 0px;
-        width: 100px;
-        height: 100px;
-    }
-    .titulo2{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding-bottom: 10px;
-    }
-    .titulo2 h2{
-        width: 263px;
-    }
-    .ventajas{
-        height: 100%;
-    }
-    .ventajas1{
-        height: 100%;
-        width: 351px ;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 15px;
-    }
-    .ventajas2{
-        height: 100%;
-        width: 351px ;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 15px;
-    }
-    .ventajas3{
-        height: 100%;
-        width: 351px ;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 15px;
-    }
-    .titulo3 h2{
-        width: 300px;
-        line-height: 28px;
-    }
-    .cuadros{
-        gap: 10px;
-    }
-    .cuadro1{
-        width: 169px;
-        height: 380px;
-    }
-    .cuadro2{
-        width: 169px;
-        height: 380px;
-    }
-    .cuadro3{
-        display: none;
-    }
-    .info-descarga{
-        flex-direction: column;
-        padding-top: 20px;
-        height: auto;
-        padding-bottom: 30px;
-    }
-    .escanea{
-        margin-bottom: 30px;
-    }
-    
-    .contacto a img{
-        display: flex;
-        flex-direction: column;
-    }
-    .texto1 p{
-        margin:20px 30px 20px 30px;
-        font-size: 14px;
-    }
-    .somos-domii h2{
-        font-size: 20px;
-    }
-    .info h4{
-        font-size: 16px;
-    }
-    .contacto h4{
+  }
+  main .tienda .formulario-tienda form {
+    text-align: center;
+  }
+  main .tienda .formulario-tienda form input {
+    width: 269px;
+  }
+  main .tienda .formulario-tienda .mapa {
+    width: 269px;
+  }
+  main .hit1 h2 {
+    font-size: 26px;
+  }
+  main .historial1 .card-historial {
+    padding-bottom: 40px;
+  }
+  main .historial1 .card-historial div {
+    width: 269px;
+  }
+  main .historial1 .card-historial div h4 {
+    font-size: 15px;
+    padding: 14px 0 0 40px;
+  }
+  main .historial1 .card-historial div p {
+    padding: 0 0 0 40px;
+    font-size: 14px;
+  }
+  main .historial1 .card-mapa .card-mapa-1 p {
+    text-align: center;
+  }
+  main .historial1 .card-info {
+    margin-bottom: 60px;
+  }
+  main .historial1 .card-info .boton-ayuda {
+    margin-top: 20px;
+  }
+  footer .contacto h4 {
     font-size: 16px;
-    }
-    .logosinfo a img{
+  }
+  footer .contacto a img {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .contacto .logosinfo a img {
     width: 20px;
-    }
-
+  }
+  footer .info h4 {
+    font-size: 16px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

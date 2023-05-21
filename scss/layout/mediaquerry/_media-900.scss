@@ -1,0 +1,173 @@
+@media (max-width:900px){
+
+header{
+    .encabezado{
+        .navbar{
+            .nav-list{
+                font-size: 18px;
+                gap: 30px;
+                margin-left: auto;        
+            }
+        }
+        .botones{
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-bottom: 10px;
+            .boton-inicio, .boton-registro{
+                width: 120px;
+                height: 40px; 
+                padding: 0;
+                ul{
+                    li{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+main{
+    .container{
+        .banner{
+            .banner-text{
+                margin: 20px;
+                padding-top: 10px;  
+                h1{
+                    font-size: 30px;
+                    margin-bottom: 10px;            
+                }      
+                h4{
+                    font-size: 16px;
+                    font-weight: 500;            
+                }
+            }
+            .banner-img{
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+    // Cards - Inicio
+    .box{
+        div{
+            margin-bottom: 30px;
+        }
+    }
+    // Ventajas - inicio
+    .titulo2{
+        h2{
+            font-size: 28px;
+        }
+    }
+    .ventajas{
+        .ventajas1, .ventajas2, .ventajas3{
+            width: 80%;
+            margin: 1rem;    
+        }
+    }
+    // Cuadros recomendaciones - inicio
+    .titulo3{
+        height: auto;
+        h2{
+            font-size: 28px;
+        }
+    }
+    .cuadros{
+        gap: 10px;
+    }
+    // descarga info - inicio
+    .info-descarga{
+        gap: 10px;  
+    }
+    // Quienes somos
+    .main{
+        .somos-domii{
+            h2{
+                font-size: 40px;
+            }
+            .texto1{
+                margin: 60px;
+            }
+        }
+    }
+    // pagina de registro
+    .registro{     
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: space-evenly;
+        align-items: center;
+        .imagen1{
+            margin-bottom: 30px;
+            img{
+                margin-left: 0;
+                width: auto;
+                height: 300px;
+            }
+        }
+        .inicio-sesion{
+            margin: 30px 0px 10px 0px;
+        }
+    }   
+    // pagina de Mi tienda
+    .tienda{
+        .card-info{
+            h3{
+                font-size: 28px;
+            }
+            h5{
+                font-size: 20px;
+            }
+            .img{
+                width: 10px;
+            }
+        }
+    }
+    // pagina Historial
+    .hit1{
+        h2{
+            font-size: 30px;
+        }
+    }
+    .historial1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        .card-historial{
+            padding-bottom: 40px;
+        }
+        .card-mapa{
+            .card-mapa-1{
+                text-align: center;
+                p{
+                    margin-bottom: 20px;
+                }
+                img{
+                    width: 70%;
+                }
+            }
+        }
+        .card-info{
+            margin-bottom: 60px;
+            .boton-ayuda{
+                margin-top: 20px;
+            }
+        }
+    }
+
+}
+
+
+footer{
+    .info{
+        margin: 53px 41px 59px 30px; 
+    }
+}
+
+}
