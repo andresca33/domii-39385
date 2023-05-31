@@ -3,7 +3,7 @@ main{
     // Banner principal
     .container{
         width: 100%;
-        height: 265px;  
+        height: 16.5625rem;  
         
         .banner{
             width: 100%;
@@ -15,19 +15,19 @@ main{
             .banner-text{
                 width: 50%;
                 h1{
-                    font-size: 40px;
+                    font-size: 2.5rem;
                     font-weight: bold;
                     color: #5856D6;
-                    margin-bottom: 20px;
+                    margin-bottom: 1.25rem;
                 }
                 h3{
-                    font-size: 24px;
+                    font-size: 1.5rem;
                     font-weight: bold;
                     color: #5856D6;
-                    margin-bottom: 10px;
+                    margin-bottom: .625rem;
                 }
                 h4{
-                    font-size: 18px;
+                    font-size: 1.125rem;
                     font-weight: bold;
                     color: #5856D6;
                 }
@@ -42,26 +42,26 @@ main{
         
         .card, .card2, .card3{
             background: #5856D6;
-            border-radius: 34px;
-            height: 121px;
-            width: 345px;
+            border-radius: 2.125rem;
+            height: 7.5625rem;
+            width: 21.5625rem;
             display: flex;
             flex-direction: row-reverse;  
 
             img{
-                margin-right: 15px;
+                margin-right: .9375rem;
             }
             
             div{
                 color: white;
-                margin: 20px;
+                margin: 1.25rem;
 
                 h3{
-                    font-size: 22px;
-                    margin-bottom: 10px;
+                    font-size: 1.375rem;
+                    margin-bottom: .625rem;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: .875rem;
                 }
                  
             }
@@ -73,11 +73,11 @@ main{
         height: auto;
         background-color: #5856D6;
         color: white;
-        font-size: 35px;
+        font-size: 2.1875rem;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 1.875rem;
         h2{
-            padding: 30px;
+            padding: 1.875rem;
         }
     }
     .ventajas{
@@ -89,25 +89,25 @@ main{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 40px;
-        gap: 20px;
+        padding-bottom: 2.5rem;
+        gap: 1.25rem;
         img{
-            margin: 5px;
-            width: 100px;
-            height: 100px;
+            margin: .3125rem;
+            width: 6.25rem;
+            height: 6.25rem;
             border-radius: 50%;
             background: #FFFFFF;
         }
         h4{
-            font-size: 20px;
-            margin-left: 20px;
+            font-size: 1.25rem;
+            margin-left: 1.25rem;
         }
         p{
-            margin-left: 20px;
-            margin-top: 10px;
+            margin-left: 1.25rem;
+            margin-top: .625rem;
         }
         .ventajas1, .ventajas2, .ventajas3{
-            width: 849px;
+            width: 53.0625rem;
             height: 100%;
             display: flex;
         }
@@ -115,9 +115,9 @@ main{
     // Cuadros recomendaciones - inicio
     .titulo3{
         width: 100%;
-        height: 120px;
+        height: auto;
         h2{
-            font-size: 48px;
+            font-size: 3rem;
             color: #5856D6;
             text-align: center;
         }
@@ -127,65 +127,65 @@ main{
         width: 100%;
         display: flex;
         flex-direction: row wrap;
-        gap: 55px;
+        gap: 3.4375rem;
         justify-content: center;
-        padding-top: 44px;
-        padding-bottom: 30px;
+        padding-top: 2.75rem;
+        padding-bottom: 1.875rem;
    
         h4{
             color: #5856D6;
             font-family: 'SF Pro Display';
             font-style: normal;
-            font-size: 20px;
-            margin: 11px 80px 11px 16px; 
+            font-size: 1.25rem;
+            margin: .6875rem 5rem .6875rem 1rem; 
         }
         p{
             font-family: 'SF Pro Display';
             color: #5856D6;
             font-style: normal;
             font-weight: 500;
-            font-size: 16px;
-            line-height: 19px;
-            margin: 11px 25px 44px 16px;
+            font-size: 1rem;
+            line-height: 1.1875rem;
+            margin: .6875rem 1.5625rem 2.75rem 1rem;
         }
         
         .cuadro1, .cuadro2, .cuadro3{
-            width: 272px;
-            height: 242px;
+            width: 17rem;
+            height: auto;
             display: flex;
             background-color: white;
-            border-radius: 20px;
+            border-radius: 1.25rem;
             flex-direction: column;
         }
     }
     // descarga info - inicio
     .info-descarga{
         width: 100%;
-        height: 167px;
+        height: 10.4375rem;
         background-color: #5856D6;
         display: flex;
         color: white;
         justify-content: space-around;
         .escanea{
             width: 50%px;
-            height: 132px;
+            height: 8.25rem;
             display: flex;
-            gap: 26px;
+            gap: 1.625rem;
             align-items: center;
             img{
-                width: 100px;
-                height: 100px;
+                width: 6.25rem;
+                height: 6.25rem;
             } 
         }
         .descarga{
             width: 50%px;
-            height: 132px;
+            height: 8.25rem;
             display: flex;
-            gap: 26px;
+            gap: 1.625rem;
             align-items: center;
             img{
-                width: 213px;
-                height: 78px;
+                width: 13.3125rem;
+                height: 4.875rem;
             }
         }
     }
@@ -193,53 +193,53 @@ main{
     .tienda{
         display: flex;
         justify-content: space-evenly;
-        height: 753px;
-        margin-top: 50px;
+        height: 47.0625rem;
+        margin-top: 3.125rem;
 
         .card-info{
             flex-direction: column;
             h3{
                 font-style: normal;
                 font-weight: 700;
-                font-size: 34px;
+                font-size: 2.125rem;
                 color: #FFCC00;
             }
             h5{
                 font-style: normal;
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 1.5rem;
                 color: #5856D6;
-                margin-bottom: 61px;
+                margin-bottom: 3.8125rem;
             }
         }
         .formulario-tienda{
             color: #5856D6;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 1.25rem;
             form{ 
                 input{
-                    border: 1px solid #5856D6;
-                    border-radius: 10px;
-                    width: 359px;
-                    height: 43px;
+                    border: .0625rem solid #5856D6;
+                    border-radius: .625rem;
+                    width: 22.4375rem;
+                    height: 2.6875rem;
                     color: black;
-                    padding-left: 10px;
+                    padding-left: .625rem;
                 }
                 div{
-                    margin: 23px 0px 5px 0px;  
+                    margin: 1.4375rem 0rem .3125rem 0rem;  
                 }
             }
             .mapa{
-                border-radius: 30px; 
+                border-radius: 1.875rem; 
             }
             .enviar-boton{
                 input{
                     color: white;
                     background-color: #5856D6;
-                    width: 106px;
-                    height: 50px;
+                    width: 6.625rem;
+                    height: 3.125rem;
                     font-weight: 600;
-                    font-size: 17px; 
+                    font-size: 1.0625rem; 
                 }
             }
         }
@@ -249,33 +249,44 @@ main{
         .somos-domii{
             h2{
                 font-weight: 700;
-                font-size: 48px;
+                font-size: 3rem;
                 color: #5856D6;
                 text-align: center;
-                padding: 20px;
+                padding: 1.25rem;
             }
             .texto1{
-                font-size: 20px;
+                font-size: 1.25rem;
                 color: black;
-                margin: 100px;
+                margin: 6.25rem;
+            }
+            .equipo{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 90%;
+                    height: auto;
+                    align-items: center;
+                }
             }
         }
     }
+           
+    
     // pagina de registro
     .registro{
         display: flex;
-        height: 804px;
+        height: 50.25rem;
         align-items: center;
         .imagen1{
             img{
-                width: 690px;
-                height: 602px;
-                border-radius: 30px;
-                margin-left: 40px;
+                width: 43.125rem;
+                height: 37.625rem;
+                border-radius: 1.875rem;
+                margin-left: 2.5rem;
             }
         }
         .inicio-sesion{
-            margin-left: 125px;
+            margin-left: 7.8125rem;
             .card-inicio{
                 display: flex;
                 align-items: center;
@@ -284,12 +295,12 @@ main{
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    padding: 12px 75px 12px 70px;
-                    gap: 10px;
-                    width: 359px;
-                    height: 58px;
+                    padding: .75rem 4.6875rem .75rem 4.375rem;
+                    gap: .625rem;
+                    width: 22.4375rem;
+                    height: 3.625rem;
                     background: #5985E5;
-                    border-radius: 15px;
+                    border-radius: .9375rem;
                     color: white
                 }
                 .inicioFacebook, .inicioTwitter{
@@ -297,59 +308,59 @@ main{
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    padding: 12px 75px 12px 60px;
-                    gap: 10px;
-                    width: 359px;
-                    height: 58px;
-                    border: 1px solid rgba(30, 30, 30, 0.2);
-                    border-radius: 15px;
+                    padding: .75rem 4.6875rem .75rem 3.75rem;
+                    gap: .625rem;
+                    width: 22.4375rem;
+                    height: 3.625rem;
+                    border: .0625rem solid rgba(30, 30, 30, 0.2);
+                    border-radius: .9375rem;
                 }
             }
             h4{
                 color: black;
                 text-align: center;
-                font-size: 32px;
-                margin-bottom: 10px;
+                font-size: 2rem;
+                margin-bottom: .625rem;
             }
             div{
-                margin: 10px;
+                margin: .625rem;
             }
             .inputInicio{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 div{
-                    border: 1px solid rgba(30, 30, 30, 0.2);
+                    border: .0625rem solid rgba(30, 30, 30, 0.2);
                 }
                 input{
-                    padding: 14px 75px 14px 20px;
-                    gap: 10px;
-                    width: 359px;
-                    height: 43px;
-                    border: 1px solid rgba(30, 30, 30, 0.2);
-                    border-radius: 10px;
-                    margin-top: 20px;
+                    padding: .875rem 4.6875rem .875rem 1.25rem;
+                    gap: .625rem;
+                    width: 22.4375rem;
+                    height: 2.6875rem;
+                    border: .0625rem solid rgba(30, 30, 30, 0.2);
+                    border-radius: .625rem;
+                    margin-top: 1.25rem;
                 }
                 p{
-                    font-size: 14px;
+                    font-size: .875rem;
                     color: gray;
                     text-align: center;
-                    margin-bottom: 10px;                   
+                    margin-bottom: .625rem;                   
                 }
                 .boton-inicio2{
-                    width: 359px;
-                    height: 43px;
+                    width: 22.4375rem;
+                    height: 2.6875rem;
                     background: #5856D6;
-                    border-radius: 10px;
-                    margin-top: 20px;
+                    border-radius: .625rem;
+                    margin-top: 1.25rem;
                     p{
                         color: white;
-                        font-size: 16px;
-                        margin-top: 10px;
+                        font-size: 1rem;
+                        margin-top: .625rem;
                     }
                 }
                 .olvide1{
-                    margin-top: 20px;
+                    margin-top: 1.25rem;
                     border: none;
                 }
             }
@@ -359,8 +370,8 @@ main{
     .hit1{
         h2{
             color: #5856D6;
-            font-size: 48px;
-            margin: 20px 0px 20px 50px;
+            font-size: 3rem;
+            margin: 1.25rem 0rem 1.25rem 3.125rem;
         }
     }
     .historial1{
@@ -370,22 +381,22 @@ main{
             div{
                 display: flex;
                 flex-direction: column;
-                width: 402px;
-                height: 74px;
-                margin: 15px;
-                border-radius: 30px;
+                width: 25.125rem;
+                height: 4.625rem;
+                margin: .9375rem;
+                border-radius: 1.875rem;
                 border: solid #5856D6;      
                 h4{
                     color: #5856D6;
-                    padding: 14px 244px 2px 48px;                 
+                    padding: .875rem 15.25rem .125rem 3rem;                 
                 }       
                 p{
                     color: #FFCC00;
-                    padding: 0px 244px 9px 48px;                
+                    padding: 0rem 15.25rem .5625rem 3rem;                
                 }
                 i{
                     color: #5856D6;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                 }
             }
             .card-historia-1{
@@ -402,67 +413,67 @@ main{
             .card-mapa-1{
                 p{
                     color: #5856D6;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     font-weight: 700;
-                    margin-bottom: 11px;                
+                    margin-bottom: .6875rem;                
                 }
             }
             .card-mapa-2{
-                width: 355px;
-                height: 181px;
-                border-radius: 20px;
+                width: 22.1875rem;
+                height: 11.3125rem;
+                border-radius: 1.25rem;
                 background: rgba(88, 86, 214, 0.5);
-                margin: 22px;
+                margin: 1.375rem;
                 div{
-                    width: 289px;
-                    height: 65px;
+                    width: 18.0625rem;
+                    height: 4.0625rem;
                     background-color: white;
-                    margin: 7px 30px 7px 37px;
-                    border-radius: 15px;                 
+                    margin: .4375rem 1.875rem .4375rem 2.3125rem;
+                    border-radius: .9375rem;                 
                 }
                 h5{
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-weight: 400;
                     text-align: center;
-                    padding: 10px 0px 0px 0px;                   
+                    padding: .625rem 0rem 0rem 0rem;                   
                 }
                 p{
-                    font-size: 13px;
+                    font-size: .8125rem;
                     color: #8E8E93;
                     text-align: center;
-                    margin: 10px 0 5px 0;                   
+                    margin: .625rem 0 .3125rem 0;                   
                 }
                 i{
-                    color: #5856D6;
+                    color: rgba(88, 86, 214, 0);
                 }
             }
         }
         .card-info{
             h4{
                 color: white;
-                font-size: 17px;
+                font-size: 1.0625rem;
                 font-weight: 700;
-                padding-left: 15px;
-                padding-top: 12px;             
+                padding-left: .9375rem;
+                padding-top: .75rem;             
             }
             .tu-domii{
-                width: 355px;
-                height: 120px;
+                width: 22.1875rem;
+                height: 7.5rem;
                 background: rgba(88, 86, 214, 0.5);
-                border-radius: 20px;
-                margin-bottom: 8px;
+                border-radius: 1.25rem;
+                margin-bottom: .5rem;
                 .dom{
-                    width: 319px;
-                    height: 51px;
+                    width: 19.9375rem;
+                    height: 3.1875rem;
                     background: #F2F2F7;
-                    border-radius: 10px;
-                    margin: 18px 19px 16px 17px;
+                    border-radius: .625rem;
+                    margin: 1.125rem 1.1875rem 1rem 1.0625rem;
                     display: flex;  
                     img{
-                        width: 40px;
-                        height: 40px;
+                        width: 2.5rem;
+                        height: 2.5rem;
                         border-radius: 50%;
-                        margin: 6px 0 5px 10px;                    
+                        margin: .375rem 0 .3125rem .625rem;                    
                     }       
                     i{
                         color: yellow; 
@@ -471,13 +482,13 @@ main{
                         display: flex;
                         flex-direction: column;
                         justify-content: space-around;
-                        margin-left: 10px;
+                        margin-left: .625rem;
                         div{
                             display: flex;
                         }
                         p{
                             color: #5856D6;
-                            font-size: 15px;
+                            font-size: .9375rem;
                             font-weight: 700;                    
                         }    
                         p:last-child{
@@ -487,48 +498,48 @@ main{
                 }
             }
             .productos{
-                width: 355px;
-                height: 120px;
+                width: 22.1875rem;
+                height: 7.5rem;
                 background: rgba(88, 86, 214, 0.5);
-                border-radius: 20px;
-                margin-bottom: 8px;
+                border-radius: 1.25rem;
+                margin-bottom: .5rem;
                 div{
-                    width: 293px;
-                    height: 68px;
+                    width: 18.3125rem;
+                    height: 4.25rem;
                     background: #FFFFFF;
-                    border: 2px solid #5856D6;
-                    border-radius: 10px;
+                    border: .125rem solid #5856D6;
+                    border-radius: .625rem;
                     display: flex;
-                    margin: 11px 33px 24px 31px;
+                    margin: .6875rem 2.0625rem 1.5rem 1.9375rem;
                     align-items: center;
                     justify-content: space-around;
                     img{
-                        width: 53px;
-                        height: 44px;
-                        border-radius: 10px;                    
+                        width: 3.3125rem;
+                        height: 2.75rem;
+                        border-radius: .625rem;                    
                     }
                 }
             }
             .efectivo{
-                width: 355px;
-                height: 190px;
+                width: 22.1875rem;
+                height: 11.875rem;
                 background: rgba(88, 86, 214, 0.5);
-                border-radius: 20px;
+                border-radius: 1.25rem;
                 .ef{
-                    width: 291px;
-                    height: 86px;
-                    border-radius: 10px;
+                    width: 18.1875rem;
+                    height: 5.375rem;
+                    border-radius: .625rem;
                     background: #FFFFFF;
-                    border: 2px solid #5856D6;
-                    margin: 21px 33px 35px 31px;
+                    border: .125rem solid #5856D6;
+                    margin: 1.3125rem 2.0625rem 2.1875rem 1.9375rem;
                     display: flex;
                     justify-content: space-around;
                     align-items: center;   
                     .ef1{
-                        font-size: 15px;
+                        font-size: .9375rem;
                     }        
                     .ef2{
-                        font-size: 13px;
+                        font-size: .8125rem;
                         font-weight: 700;
                         color: green; 
                         p:first-child{
@@ -538,14 +549,14 @@ main{
                 }            
             }
             .boton-ayuda{
-                    width: 91px;
-                    height: 50px;
+                    width: 5.6875rem;
+                    height: 3.125rem;
                     background: #5856D6;
-                    border-radius: 14px;
+                    border-radius: .875rem;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    margin-top: 49px;
+                    margin-top: 3.0625rem;
                 p{
                     color: white;
                     text-align: center;

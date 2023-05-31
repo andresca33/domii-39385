@@ -26,8 +26,17 @@ header{
                 display: flex;
                 gap: 72px;
                 font-size: 24px;
+                li{
+                    a{
+                        transition: color 0.3s ease-in-out;
+                        &:hover {
+                            color: #908ff4;
+                        }
+                    }
+                }
             }
         }
+
         .botones{
             display: flex;
             align-items: center;
@@ -62,7 +71,7 @@ header{
                 justify-content: center;
             }     
         }
-        .botones-no{
+        .hamburguer{
             display: none;
         }
     }
